@@ -1,0 +1,9 @@
+# Request: a list of drinks to make
+string[] items
+---
+# Result: whether the entire order was successful
+bool success
+string message
+---
+# Feedback: which item is currently being prepared
+string current_item
